@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar {
+    height: 80px;
+    background: linear-gradient(to right, rgb(212, 16, 16), black, black, black, rgb(199, 8, 8));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-logo {
+    height: 80px;
+    width: 80px;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    background-image: url("Motorlogo.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.nav-info a {
+    padding-right: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: all 0.3s linear 0.3s;
+}
+
+.nav-info a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    background-color:white;
+}
+
+.nav-icons i {
+    font-size: 1.2rem;
+    color: white;
+    padding-right: 40px;
+}
+.contact-box{
+    height:800px;
+    width:100%;
+    background-color:white;
+}
+.contact-box h2{
+    margin-top:2rem;
+    padding-top:2rem ;
+    padding-left:2rem;
+    font-size:4rem;
+    font-weight:700;
+}
+.contact
+{
+    height: 100px;
+
+}
+/*navanidhi's css code*/
+ .location-box a img{
+height:80px;
+width:80px;
+background-image: url("route-icon-vector.jpg");
+background-size: cover;
+border-radius: 50%;  
+} 
+div h6 p{
+ text-align: center;
+}
+
+/* First box started */
+
+.first-box{
+    height:300px;
+    width:100%;
+    background-color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.location-box{
+    height:100%;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 20px black;
+}
+.location-icon a img{
+    height:130px;
+    width:100px;
+    margin-top:-60px;
+}
+.location-box-info{
+    margin-top:-5px;
+}
+.Phone-box{
+    height:100%;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 20px black;
+}
+.Mail-box{
+    height:100%;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 20px black;
+}
+.Social-media-box{
+    height:100%;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 20px black;
+}
+.Soc-icon i{
+    font-size:3rem;
+    color: #e83b3b;
+    padding-top:-190px;
+}
+.Soc-icon-user i{
+    font-size:3rem;
+    color: #e83b3b;
+}
+.ph-number h3 ,.Email-id h3 {
+    padding-top:2rem;
+    text-align: center;
+    padding-top:2rem;
+}
+.ph-number p ,.Email-id p{
+    padding-top:2rem;
+    text-align: center;
+    font-size:1.1rem;
+    font-weight: 500;
+}
+.Social-img-name i{
+    padding-bottom:3rem;
+}
+/* .Social-img-name .name{
+    padding-bottom:2.5rem ;
+}  */
+
+.Social-media-icons{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size:3rem;
+    padding-top:0rem;
+
+}
+/* contuct us bar */
+.in-box{
+    text-align: center;
+    color: whitesmoke;
+    height: 70px;
+    width: 100%;
+    padding-top :1rem;
+    background-color: #e83b3b;
+    font-weight:bolder;
+}
+/* code for form */
+.form-insert
+{
+    height: 800px;
+    width: 815px;
+    box-shadow:0px 10px 30px black;
+    display: flex;
+    margin-left:2rem;
+    padding:2rem;
+}
+form input[type=text]{
+    height:2.5rem;
+    width:19.5rem;
+    border:2px solid black;
+    box-shadow:0px 2px 5px black;
+    margin-left:2.5rem;
+    font-size:1.2rem;
+}
+form input[type=email]{
+    height:2.5rem;
+    width:19.5rem;
+    border:2px solid black;
+    box-shadow:0px 2px 5px black;
+    margin-left:2.5rem;
+    font-size:1.2rem;
+}
+form input[type=tel]{
+    height:2.5rem;
+    width:19.5rem;
+    border:2px solid black;
+    box-shadow:0px 2px 5px black;
+    margin-left:2.5rem;
+    font-size:1.2rem;
+}
+form textarea{
+    width:41.6rem;
+    height:230px;
+    margin-left:2.5rem;
+    margin-top:1rem;
+    border:2px solid black;
+    box-shadow:0px 2px 5px black;
+    font-size:1rem;
+}
+form input[type=checkbox]{
+    height:1.5rem;
+    width:1.5rem;
+    margin-top:1rem;
+    margin-left:2.3rem;
+}
+form label{
+    font-size:1.2rem;
+    margin-left:0.5rem;
+}
+form label a{
+    text-decoration:none;
+    font-size:1.2rem;
+    color:black;
+    text-decoration: underline;
+    padding-left:1.7rem;
+    margin-left:2.7rem;
+}
+form label a:hover{
+    color:blue;
+}
+form button{
+    margin-left:10rem;
+    height:3rem;
+    width:7rem;
+    font-size:1.2rem;
+    font-weight:700;
+    border-radius:6px;
+}
+form button:hover{
+    background-color:rgba(247, 55, 55, 0.861);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer css styling */
+.footer {
+    height: 500px;
+    width: 100%;
+    /* background-color: rgb(6, 5, 23); */
+    background: linear-gradient(to left, red, black, black, black, red);
+    color: white;
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-around;
+}
+
+.footer-first-info {
+    height: 400px;
+    width: 400px;
+    /* display: flex; */
+    /* padding-left: 1rem; */
+}
+
+.footer-first-info p {
+    padding-top: 1rem;
+}
+
+.footer-first-info .footer-logo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.About-us ul {
+    padding-top: 1rem;
+}
+
+.About-us li {
+    padding-top: 1rem;
+    list-style: none;
+}
+
+.About-us li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.our-services ul {
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
+
+.our-services h1 {
+    padding-left: 3.7rem;
+}
+
+.our-services li {
+    padding-top: 1rem;
+    list-style: none;
+}
+
+.our-services li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.Location {
+    display: flex;
+    padding-top: 0.5rem;
+}
+
+.Location .location-icon i {
+    padding-right: 2rem;
+    font-size: 1.5rem;
+}
+
+.Email {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.Email .email-icon i {
+    padding-right: 2rem;
+    font-size: 1.5rem;
+}
+
+.call-us {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.call-us .call-icon i {
+    padding-right: 2rem;
+    font-size: 1.5rem;
+}
+
+.Follow-us {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.Follow-us .follow-Us-icon i {
+    padding-right: 2rem;
+    font-size: 1.5rem;
+}
